@@ -11,7 +11,8 @@ pipeline {
         stage('Run Script') {
             steps {
                     echo "Running myapp.py on main branch..."
-                    bat "python C://Users/97252/PycharmProjects/PythonProject4/Site_test/BuyMe_new.py"
+                    bat "python C://Users/97252/PycharmProjects/PythonProject1/PythonProject/web_buyme/BuyMe_new.py"
+
                 }
             }
         }
