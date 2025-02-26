@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                    echo "Running myapp.py on master branch..."
+                    echo "Running myapp.py on main branch..."
                     echo  'python C://Users/97252/PycharmProjects/PythonProject4/Site_test/BuyMe.py'
                 }
             }
